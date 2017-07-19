@@ -14,9 +14,8 @@ import xarray as xr
 
 directoriesToSearch = ['/g/data3/hh5/tmp/cosima/',
                       ]
-
-cosima_cookbook_dir = '/g/data1/v45/cosima-cookbook'
-database_file = '{}/cosima-cookbook.db'.format(cosima_cookbook_dir)
+from cosima_cookbook import cachedir
+database_file = '{}/cosima-cookbook.db'.format(cachedir)
 database_url = 'sqlite:///{}'.format(database_file)
 
 def build_index():
