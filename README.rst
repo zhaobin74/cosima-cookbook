@@ -18,3 +18,5 @@ These notebooks are designed to run on tenjin.nci.org.au which includes the VDI.
 
 This cookbook assumes a Python computational environment and access to 
 the NCI infrastructure.
+
+Starting point for MOM outputs analysis.
